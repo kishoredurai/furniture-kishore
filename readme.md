@@ -70,9 +70,11 @@ To run this application, you have to set your own environmental variables.
 
 The application is deployed to Heroku and can be accessed through the following link:
 
-[Golden Furniter](https:///)
+[Golden Furniter](https://goldenfurniture.herokuapp.com/)
 
 ### Admin Login Credentials
+
+add / admin to the URL
 
 Username: admin@goldenstar.com <br>
 Password: admin@123
