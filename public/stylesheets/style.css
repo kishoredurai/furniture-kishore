@@ -1,13 +1,13 @@
 :root {
-  --dark-blue: lightgreen;
-  --light-blue: rgb(217, 255, 47);
+  --dark-blue: rgb(192, 136, 15);
+  --light-blue: rgb(255, 255, 255);
   --dark-orange: #e9765b;
   --light-orange: #f2a490;
   --dark-pink: #de5b6d;
   --green: #18a558;
-  --ivory: lightblue;
-  --black: #202020;
-  --dark-gray: #474747;
+  --ivory: rgb(248, 249, 255);
+  --black: #000000;
+  --dark-gray: #000000;
 }
 * {
   margin: 0px;
@@ -114,7 +114,7 @@ a:hover,
 }
 
 .search-input {
-  /* width: 100%; */
+  width: 100%;
   padding: 12px 24px;
   background-color: transparent;
   transition: transform 250ms ease-in-out;
@@ -128,7 +128,7 @@ a:hover,
   background-repeat: no-repeat;
   background-size: 18px 18px;
   background-position: 95% center;
-  border-radius: 50px;
+  border-radius: 5px;
   border: 1px solid #575756;
   transition: all 250ms ease-in-out;
   backface-visibility: hidden;
@@ -139,6 +139,7 @@ a:hover,
 .search-input {
   color: color(#575756 a(0.8));
   letter-spacing: 1.5px;
+  padding-left: 30px;
 }
 
 .search-input:hover,
@@ -490,9 +491,10 @@ footer {
 .but{
   padding:4px;
   margin:2px;
-  background-color: greenyellow;
+  background-color: rgb(255, 255, 255);
   text-align:center;  
-  border-radius:10px
+  border-radius:5px;
+  border-color: #0b1dbe;
   /* line-height:1em; */
 }
 .but a{
@@ -503,8 +505,9 @@ footer {
   
 }
 .but:hover{
-  background-color:aqua;
-  color:blueviolet;
+  background-color:#db9d18;
+  color:rgb(255, 255, 255);
+  border-color: #ac7b11;
 }
 
 .infor{
@@ -534,7 +537,7 @@ footer {
 justify-content:center; }
 
 .button-style{
-  background-color: rgb(146, 146, 230);
+  background-color: rgba(60, 60, 189, 0.856);
 }
 
 

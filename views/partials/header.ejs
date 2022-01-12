@@ -2,10 +2,12 @@
 <html>
   <head>
     <% if (pageName) { %>
-    <title>BestBags | <%= pageName %></title>
+    <title>Golden Furnitures | <%= pageName %></title>
     <%} else {%>
     <title>Shopping Cart</title>
     <% } %>
+    <link rel="icon" href="/public/images/logo.png" type="image/icon type">
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
@@ -56,15 +58,14 @@
 
         <div class="search-container">
           <a href="/">
-            <img class="logo-img img-fluid" style="width:150px" src="https://images.creativemarket.com/0.1.0/ps/2842411/1162/776/m1/fpnw/wm0/1-.jpg?1497389237&s=6d5f67791c8be7929f5dd1a5bcfc7ab0" alt="logo" />
-            <h4 class="logo-title">ROYAL FURNITURE</h4>
+            <img class="logo-img img-fluid" style="width:180px;height: 120px;" src="https://www.pinclipart.com/picdir/big/543-5432445_furniture-clipart-furniture-logo-gold-star-png-download.png" alt="logo" />
           </a>
 
         </div>
       </div>
       <div class="col-md-3 col-sm-12 col-xs-12">
 
-        <form class="form-inline" action="/products/search" method="GET">
+        <form class="form-inline"  action="/products/search" method="GET">
           <input
             class="search-input"
             type="search"

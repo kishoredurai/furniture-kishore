@@ -35,7 +35,7 @@ const Dashboard = () => {
         alt="dashboard-head"
       />
       <Wrapper>
-        <Title>Welcome to the Admin Panel</Title>
+        <Title>Welcome to the Golden Star Admin Panel</Title>
         <Lead>
           Here you can manage your products and categories as well as view users
           and their orders.
